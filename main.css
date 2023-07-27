@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Borel', cursive;
+}
+
+body {
+    background-color: rgba(211, 214, 241, 0.87);
+    padding: 16px 0;
+    color: rgba(22, 19, 19, 0.89);
+    display: block;
+    text-align: center;
+    margin-top: 15%;
+}
+
+#nova-tarefa {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul li {
+    color: rgba(22, 19, 19, 0.89);
+    margin-top: 10px;
+    text-decoration: line-through;
+}
