@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Bungee+Inline&family=Lumanosimo&family=Oxanium:wght@300;400;700&family=Pangolin&family=Roboto+Serif:wght@200&family=Roboto+Slab&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulário de Cadastro</h1>
+    </div>
+    <form>
+        <div class="form-campo">
+            <label for="primeiro-nome">Primeiro Nome:</label>
+            <input type="text" id="primeiro-nome" name="primeiroNome" placeholder="Primeiro Nome">
+        </div>
+        <div class="form-campo">
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome" >
+        </div>
+        <div class="form-campo">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="exemplo@email.com">
+        </div>
+        <div class="form-campo">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone">
+        </div>
+        <div class="form-campo">
+            <label for="cpf">CPF:</label>
+            <input type="tel" id="cpf" name="cpf">
+        </div>
+        <div class="form-campo">
+            <label for="endereco-completo">Endereço Completo:</label>
+            <input type="text" id="endereco-completo" name="enderecoCompleto" placeholder="Endereço Completo">
+        </div>
+        <div class="form-campo">
+            <label for="cep">CEP:</label>
+            <input type="tel" id="cep" name="cep">
+        </div>
+        <button type="submit">Enviar cadastro</button>
+    </form>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> <!-- sempre q usar a mascara, tem q ter esse link -->
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    
+</body>
+</html>
