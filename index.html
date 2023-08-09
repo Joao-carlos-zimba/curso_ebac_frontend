@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Borel&family=Bungee+Inline&family=Lumanosimo&family=Oxanium:wght@300;400;700&family=Pangolin&family=Roboto+Serif:wght@200&family=Roboto+Slab&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col">
+            <h1>Preencha o Formulário abaixo</h1>
+
+            <form>
+                <label class="form-label" for="nome">Nome:</label>
+                <input class="form-control" type="text" id="nome" name="nome" placeholder="Nome">
+
+
+                <label class="form-label" for="email">E-mail:</label>
+                <input class="form-control" type="email" id="email" name="email" placeholder="exemplo@email.com">
+
+
+                <label class="form-label" for="telefone">Telefone:</label>
+                <input class="form-control" type="tel" id="telefone" name="telefone">
+
+                <div class="form-check form-switch">
+                    <label class="form-check-label" for="aceito-termo">Li e concordo com os termos do formulário</label>
+                    <input class="form-check-input" type="checkbox" id="aceito-termo">
+                </div>
+                <button type="submit">Enviar cadastro</button>
+            </form>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- sempre q usar a mascara, tem q ter esse link -->
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+
+</body>
+
+</html>
