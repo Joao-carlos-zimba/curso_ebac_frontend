@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bibli/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exemplo-modal" >
+        Abrir modal
+    </button>
+    <div class="modal" id="exemplo-modal" data-bs-backdrop="static" >
+        <div class="modal-dialog" >
+            <div class="modal-content" >
+                <div class="modal-header" >
+                    <h5>titulo</h5>
+                    <button data-bs-dismiss="modal" type="button" class="btn-close" ></button>
+                </div>
+                <div class="modal-body" >
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsa veniam, commodi vitae sed unde sapiente nisi blanditiis, accusantium, excepturi iusto doloribus assumenda quod eius! Architecto vero alias esse aperiam?
+                    </p>
+                </div>
+                <div class="modal-footer" >
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal" >Cancelar</button>
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal" >Confirmar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./bibli/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){ // vai carregar o modal após todo o html carregar
+            const modalExemplo = new bootstrap.Modal('#exemplo-modal');
+            setTimeout(function() {  // para o carregamento não ser instantâneo
+                modalExemplo.show();
+            }, 3000)
+        })  
+    </script>
+</body>
+</html>
