@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bibli/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <title>Document</title>
+
+    <style>
+        .container img {
+            width: 800px;
+            height: 200px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+        <div id="carousel-img" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="img/novo_modo_jogo.webp" />
+                    <div class="carousel-caption">
+                        <h2>Nova Temporada</h2>
+                    </div>
+                </div>
+
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./img/novo_modo_jogo.webp" />
+                    <div class="carousel-caption">
+                        <h2>Novo modo de jogo</h2>
+                    </div>
+                </div>
+
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./img/novo_perso.jpg" />
+                    <div class="carousel-caption">
+                        <h2>Nova Personagem</h2>
+                    </div>
+                </div>
+            </div>
+
+            <button data-bs-target="#carousel-img" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon" ></span>
+            </button>
+            <button data-bs-target="#carousel-img" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon" ></span>
+            </button>
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-img" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./bibli/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
