@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imbituba</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- icones -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Bungee+Inline&family=Lumanosimo&family=Oxanium:wght@300;400;700&family=Pangolin&family=Roboto+Serif:wght@200&family=Roboto+Slab&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fw-bold">Imbituba</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#praias" class="nav-link">
+                            <i class="bi bi-life-preserver me-1"></i>
+                            Praias
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#outras-atracoes" class="nav-link">
+                            <i class="bi bi-flower1 me-1"></i>
+                            Outras Atrações
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#localizacao" class="nav-link">
+                            <i class="bi bi-geo-alt me-1"></i>
+                            Localização
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header> <!-- Fim cabecalho -->
+
+    <!-- inicio carousel -->
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img class="w-100" src="./img/praia_01.webp" alt="foto praia">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="w-100" src="./img/praia_02.jpg" alt="foto praia">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="w-100" src="./img/praia_03.jpg" alt="foto praia">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div> <!-- fim carousel -->
+
+            <div class="pt-5 pd-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5" id="sobre-imbituba">
+                            <img src="./img/baleia_01.png" class="d-block rounded" alt="foto aeria de uma baleia">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="sub-titulos fw-bold">Sobre Imbituba</h2>
+                            <p>
+                                O município de Imbituba, localizado ao Sul de Santa Catarina, é reconhecido
+                                internacionalmente por suas belezas naturais. Quem busca por tranquilidade facilmente
+                                pode apaixonar-se pela cidade, com suas belas praias, lagoas, dunas, ilhas, piscinas
+                                naturais e mata nativa. Uma combinação perfeita de elementos da natureza que garantem
+                                atrativos turísticos entre os mais comentados no Brasil.</br>
+                                </br>Imbituba é considerada a capital nacional da Baleia-Franca e se destaca pelos
+                                esforços na conservação da espécie, com o Museu da Baleia como um de seus principais
+                                atrativos turísticos. Construído na antiga armação baleeira, traz equipamentos e
+                                instrumentos utilizados na caça e resgata a história da atividade, recebendo
+                                pesquisadores e visitantes do mundo todo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- Fim section sobre -->
+
+        <section id="praias" class="pt-5 pd-5">
+            <div class="container">
+                <div class="row mt-5">
+                    <h2 class="sub-titulos fw-bold text-center mb-5">
+                        Praias
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-praias">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#rosa"
+                                class="fw-bold text-start nav-link active">Praia do Rosa</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#ibiraquera"
+                                class="fw-bold text-start nav-link">Barra da Ibiraquera</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#itapiruba"
+                                class="fw-bold text-start nav-link">Praia de Itapirubá</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#vila"
+                                class="fw-bold text-start nav-link">Praia da Vila</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#ribanceira"
+                                class="fw-bold text-start nav-link">Praia da Ribanceira</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="rosa">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./img/praias/rosa_01.jpg"
+                                            alt="imagem da praia do rosa" />
+                                        <p>
+                                            A Praia do Rosa é única. Um Pedaço do paraíso entre a Serra do Mar e o
+                                            Oceano Atlântico, o Rosa é um lugar rústico, de natureza vívida e dono de um
+                                            estilo verdadeiramente singular.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./img/praias/rosa_02.jpg"
+                                            alt="imagem da praia do rosa" />
+                                        <p>
+                                            Cartão postal do município de Imbituba, o Rosa está somente a 90 km da
+                                            capital Florianópolis, e é cercado por outras belezas naturais como a
+                                            vizinha Barra de Ibiraquera, a Guarda do Embaú que fica 35 km ao norte e a
+                                            cidade histórica de Laguna que está 40 km ao sul.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="ibiraquera">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./img/praias/ibira_01.jpg"
+                                            alt="imagem da barra da ibiraquera" />
+                                        <p>
+                                            Conhecida por ser uma das principais praias de Imbituba, a praia da Barra de
+                                            Ibiraquera é perfeita para passar dias em família com os pés na areia ou
+                                            tomar agradáveis banhos de mar.
+                                            Com águas cristalinas e areias finas e brancas, a praia de Ibiraquera é
+                                            muito procurada por famílias com crianças, como também pelos surfistas de
+                                            plantão, já que a formação de ondas nessa praia é perfeita para a prática
+                                            desse esporte.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./img/praias/ibira_02.jpg"
+                                            alt="imagem da barra da ibiraquera" />
+                                        <p>
+                                            Também sendo o local ideal para famílias com crianças pequenas, a lagoa de
+                                            Ibiraquera se destaca por suas águas calmas e serenas. Ela é própria para
+                                            banho, se tornando ideal para pais e filhos brincarem e aproveitarem seus
+                                            momentos de descanso e lazer no litoral. Formada pelo encontro da água do
+                                            mar e da água doce de riachos formam uma lagoa sendo ideal para prática de
+                                            esportes como natação, canoagem, windsurf, kitesurf e stand up paddle. Por
+                                            ser um local com águas limpas, baixa profundidade e cercada pela natureza, a
+                                            Lagoa de Ibiraquera é o lugar perfeito para passar as melhores férias com
+                                            toda a família
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="itapiruba">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./img/praias/itapira_01.jpg"
+                                            alt="imagem da praia de itapiruba" />
+                                        <p>
+                                            A Praia do Itapirubá é a última praia ao Sul de Imbituba, faz divisa com o
+                                            município de Laguna. Itapirubá é topônimo da língua tupi. O elemento tupi
+                                            "Ita" desígna "pedra". Ainda outra variação do tupi, significa "conchas". O
+                                            sufixo "uba", significa "quantidade".
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./img/praias/itapira_02.jpg"
+                                            alt="imagem da da praia de itapiruba" />
+                                        <p>
+                                            No costão entre Itapiruba Norte e Sul, existe uma pedra onde a natureza faz
+                                            um espetáculo a parte. Pode-se ver um belo esguicho de água jorrando para o
+                                            alto, quando as ondas batem nas pedras. A Lagoa do Timbé e as dunas da
+                                            "volta da praia", são belezas que atraem os amantes da natureza.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="vila">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./img/praias/vila_01.jpg"
+                                            alt="imagem da praia da vila" />
+                                        <p>
+                                            Uma curiosidade é que ela foi berço do início do surf no estado de Santa
+                                            Catarina. Isso mesmo ela já foi palco em alguns anos atrás do campeonato
+                                            mundial de surf – WCT. Por este e outros motivos ela é considerada um ótimo
+                                            pico para a prática do surf. Muito desta série de pontos favoráveis são
+                                            graças a posição estratégica das duas ilhas a Santana de Dentro e a Santana
+                                            de Fora.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./img/praias/vila_02.jpg"
+                                            alt="imagem da praia da vila" />
+                                        <p>
+                                            A Praia, no Centro de Imbituba, possui uma paisagem deslumbrante pelo visual
+                                            definido por costão e pelas ilhas Santana de Dentro e Santana de Fora que,
+                                            devido ao posicionamento, viabilizam a formação de ondas perfeitas, chegando
+                                            a atingir 5 metros de altura. A Praia da Vila é excelente para a pesca e
+                                            para a observação das baleias que podem se vistas a 20 metros da praia. A
+                                            infraestrutura é de excelente qualidade oferecendo grande variedade de
+                                            hospedagens e gastronomia.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="ribanceira">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./img/praias/riba_01.jpg"
+                                            alt="imagem da praia da ribanceira" />
+                                        <p>
+                                            De mar aberto e cristalino, a extensa praia de Ribanceira é frequentada pelos
+                                            surfistas, que lá encontram boas ondas. Os adeptos do sandboard também
+                                            marcam presença na área, emoldurada por dunas de areia branquinha. É uma das
+                                            preferidas das baleias francas na época de procriação e amamentação, entre
+                                            julho e novembro. Fica a nove quilômetros do Centro.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./img/praias/riba_02.jpg"
+                                            alt="imagem da praia da ribanceira" />
+                                        <p>
+                                            Com uma orla de mais 2,8 km que se estende desde as Dunas na extrema com a
+                                            Ibiraquera ao norte, até o Pontão da Ribanceira ao sul. Circundada por dunas
+                                            que atingem 60 metros de altura, a Ribanceira possui visual deslumbrante,
+                                            com rochas brotando da água, é um lugar tranquilo, onde se pratica
+                                            caminhadas, o surfe e a pesca. Uma característica peculiar da Ribanceira é a
+                                            areia da praia sempre úmida, por causa da água que brota do morro.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="outras-atracoes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row mt-5">
+                    <h2 class="sub-titulos fw-bold text-center">Outras Atraçoes</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./img/baleias_01.jpg" alt="foto aeria das baleias" class="d-block w-100 rounded mb-2">
+                        <h3 class="sub-sub-titulos">
+                            <i class="bi bi-binoculars"></i>
+                            Observação de Baleias Francas
+                        </h3>
+                        <p>
+                            As baleias francas são cetáceos de grande tamanho, podendo atingir, segundo registros
+                            históricos, mais de 17 metros de comprimento nas fêmeas e pouco menos nos machos, muito
+                            embora participantes da caça à baleia franca no litoral do Estado de Santa Catarina nas
+                            décadas de 1950/60 afirmem categoricamente que animais com mais de 18 metros foram
+                            capturados nas imediações de Garopaba e Imbituba.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="./img/outra_02.jpg" alt="foto da frente da casa açoriana"
+                            class="d-block w-100 rounded mb-2">
+                        <h3 class="sub-sub-titulos">
+                            <i class="bi bi-house-door"></i>
+                            Casa Açoriana Freguesia Sant'Anna de Vila Nova
+                        </h3>
+                        <p>
+                            Sant'Anna de Villa Nova, é o berço da colonização de base Açoriana na cidade de Imbituba.
+                            Foi uma das freguesias mais antigas do sul do Brasil. Foi inaugurada em 01 de julho de 2018,
+                            a Casa Açoriana Freguesia Sant'Anna de Villa Nova. Um espaço cultural das manifestações
+                            folclóricas, culinária, econômica, social e religiosas de base luso-açoriana.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="./img/outras_03.jpeg" alt="homen em um paraquedas" class="d-block w-100 rounded mb-2">
+                        <h3 class="sub-sub-titulos">
+                            <i class="bi bi-balloon"></i>
+                            FlyCompany Parapente - Escola de voo livre
+                        </h3>
+                        <p>
+                            A escola Flyconpany tem como principal função a formação de novos pilotos na modalidade
+                            parapente. A equipe realiza voos duplos panorâmicos nas principais rampas da cidade de
+                            Imbituba SC. As rampas sul, sudeste, norte e nordeste estão localizadas no morro do Mirim, o
+                            morro das antenas. Com vento leste ou nordeste a equipe faz os voos no mirante do porto
+                            (Divinéia).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="localizacao" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row mt-5">
+                    <h2 class="sub-titulos fw-bold text-center" >
+                        <i class="bi bi-map"></i>
+                        Localização
+                    </h2>
+                </div>
+                <div class="row">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14058.687775631939!2d-48.67496120870606!3d-28.24763526160571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526b59788a75773%3A0x25e46c2db7453927!2sImbituba!5e0!3m2!1spt-BR!2sbr!4v1692825646441!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

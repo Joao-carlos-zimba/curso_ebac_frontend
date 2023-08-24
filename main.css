@@ -1,0 +1,100 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.sub-titulos {
+    font-family: 'Borel', cursive;
+    color: #01013D;
+    border-bottom: 1px solid #03038A;
+}
+
+.sub-sub-titulos {
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: #01013D;
+}
+
+.navbar-brand {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+}
+
+.navbar {
+    background-color: #03038A;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #A4A4FE;
+    color: #03038A;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link.active:hover {
+    color: #A4A4FE;
+}
+
+.carousel-item img {
+    height: 500px;
+}
+
+.navbar-toggler {
+    background-color: #C9C9FC;
+}
+
+#sobre {
+    background-color: #6767FF;
+}
+
+#sobre-imbituba, p {
+    text-align: justify;
+    color: #03038A;
+}
+
+#sobre-imbituba img {
+    width: 536px;
+    height: 370px;
+    margin-left: -80px;
+}
+
+.nav-praias .nav-link.active {
+    background-color: #03038A;
+    color: #A4A4FE;
+}
+
+.nav-praias .nav-link:hover {
+    color: #6767FF;
+}
+
+#praias {
+    background-color: #A4A4FE;
+}
+
+#outras-atracoes {
+    background-color: #6767FF;
+}
+
+#localizacao {
+    background-color: #A4A4FE;
+}
+
+@media (max-width:767px) { /* após esse resolução começa os table */
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+@media screen and (min-width: 240px) and (max-width: 820px) {
+    #sobre-imbituba img {
+        width: 100%;
+        margin-left: 4px;
+    }
+}
+
+@media screen and (min-width: 912px) and (max-width: 1024px) {
+    #sobre-imbituba img {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }    
+}
