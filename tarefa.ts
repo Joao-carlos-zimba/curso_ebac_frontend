@@ -5,7 +5,9 @@ function multiplica (n01: number, n02: number): number{
 let valor: number = multiplica(3, 2);
 console.log("O resultado é:", valor);
 
-let nome2 = new String("João");
-let saudacao = new String ("Olá ");
-let frase = saudacao.concat(nome2.toString());
-console.log(frase)
+function saudacao (p01: string, p02: string): string{
+    return p01 + p02;
+}
+
+let frase: string = saudacao("Olá", "João");
+console.log(frase);
